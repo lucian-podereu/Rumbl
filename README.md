@@ -1,4 +1,5 @@
 # Rumbl
+[![Build Status](https://travis-ci.org/lucian-podereu/Rumbl.svg?branch=master)](https://travis-ci.org/lucian-podereu/Rumbl)
 
 To start your Phoenix app:
 
