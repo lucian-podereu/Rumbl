@@ -2,7 +2,7 @@ defmodule Rumbl.Video do
   use Rumbl.Web, :model
 
   @primary_key {:id, Rumbl.Permalink, autogenerate: true}
-  
+
   schema "videos" do
     field :url, :string
     field :title, :string
@@ -10,6 +10,7 @@ defmodule Rumbl.Video do
     field :slug, :string
     belongs_to :user, Rumbl.User
     belongs_to :category, Rumbl.Category
+    has_many :annotations, Rumbl.Annotation
 
     timestamps
   end
